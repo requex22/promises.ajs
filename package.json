@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1"
+  },
+  "name": "promises-ajs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/requex22/promises.ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/requex22/promises.ajs/issues"
+  },
+  "homepage": "https://github.com/requex22/promises.ajs#readme",
+  "description": ""
+}
