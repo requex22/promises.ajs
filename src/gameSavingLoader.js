@@ -3,9 +3,14 @@ import read from './reader';
 import GameSaving from './gameSaving';
 
 export default class GameSavingLoader {
-  static load() {
-    return read()
-        .then((data) => json(data))
-        .then((data) => new GameSaving(JSON.parse(data)))
+  static async load() {
+      try {
+        const data = await read();
+        const result = await json(data);
+
+        return Promise.reject(result);
+      } catch(error) {
+        return error
+      }
   }
 }
